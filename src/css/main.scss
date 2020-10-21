@@ -1,0 +1,69 @@
+html,
+body {
+    width: 100%;
+    color: #222;
+    background: #fff;
+    font-family: "PingFang SC Regular", "Source Han Sans OLD Regular", "Microsoft YaHei", Helvetica, Verdana, Arial;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    -o-user-select: auto !important;
+    user-select: auto !important;
+}
+li,
+ol {
+    list-style-type: none;
+}
+img {
+    vertical-align: middle;
+}
+a,
+a:link,
+.a:visited,
+.a:hover,
+.a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.flex {
+    display: flex;
+}
+.flex-ac {
+    align-items: center;
+}
+.flex-jc {
+    justify-content: center;
+}
+.flex1 {
+    flex: 1;
+}
+.flex-js {
+    justify-content: space-between;
+}
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+.flex-ja {
+    justify-content: space-around;
+}
+.flex-jc {
+    justify-content: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.bold {
+    font-weight: bold;
+}
